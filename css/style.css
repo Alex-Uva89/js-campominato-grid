@@ -48,7 +48,6 @@ footer{
     width: 3.5em;
     height: 3.5em;
     font-size: 1em;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +57,14 @@ footer{
 
 #refresh{
     width: fit-content;
-    margin: 10px auto;
+    margin: auto;
     padding: 1em;
+}
+
+.select{
+    background-color: rgb(0, 110, 255);
+}
+
+#error{
+    background-color: red;
 }
