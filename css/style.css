@@ -26,9 +26,17 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
+#title{
+    font-size: 3em;
+    padding: 50px;
+}
 
+.remove{
+    display: none;
+}
 
 .copy{
     margin-left: 100px;

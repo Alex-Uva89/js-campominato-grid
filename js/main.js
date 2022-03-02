@@ -3,10 +3,12 @@ let areaContainBoxes = document.getElementById('box_game');
 const btnPlay = document.getElementById('play');
 const btnSelect = document.getElementById('level_user');
 const btnClear = document.getElementById('refresh');
+const titleMod = document.getElementById('title');
 
 
 btnPlay.addEventListener('click', function(){
     areaContainBoxes.classList.remove('size')
+    titleMod.classList.add('remove');
     if (btnSelect.value == 'easy'){
         clickEasy();
     } else if (btnSelect.value == 'medium'){
