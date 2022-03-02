@@ -16,7 +16,7 @@ btnPlay.addEventListener('click', function(){
     } else if (btnSelect.value == 'hard'){
         clickHard();
     } else {
-        areaContainBoxes.innerHTML = 'Scegli la difficoltà'
+        areaContainBoxes.innerHTML = '<h2 class= "size">Questa non è una difficoltà :( </h2></i>'
     }
 })
 
